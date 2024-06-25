@@ -1,4 +1,9 @@
-//1. Create a new React app.
+//1. Create a new React app.a
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
+
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
 //to show the Keeper App name in an <h1>.
@@ -16,14 +21,3 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
-import React from "react";
-
-const index = () => {
-  return (
-    <div>
-      <App />
-    </div>
-  );
-};
-
-export default index;
